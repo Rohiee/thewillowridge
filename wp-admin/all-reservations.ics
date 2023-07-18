@@ -1,0 +1,10 @@
+
+BEGIN:VCALENDAR
+PRODID:Hotel Booking by Nicdark
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Hotel Booking Reservations
+X-WR-TIMEZONE:Europe/Rome
+X-WR-CALDESC:This is a calendar with all Hotel Booking Reservation
+END:VCALENDAR

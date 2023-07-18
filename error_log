@@ -1,0 +1,11 @@
+[02-Oct-2022 12:45:54 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `wph0_options` WHERE `option_name` = '_transient_timeout_global_styles_hotelbooking' made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/themes/hotelbooking/page.php'), get_header, locate_template, load_template, require_once('/themes/hotelbooking/header.php'), wp_head, do_action('wp_head'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_scripts, do_action('wp_enqueue_scripts'), WP_Hook->do_action, WP_Hook->apply_filters, wp_enqueue_global_styles, wp_get_global_stylesheet, get_transient, delete_option
+[08-Oct-2022 06:21:21 UTC] PHP Warning:  Error while sending QUERY packet. PID=9361 in /home/inncomen/public_html/thewillowridge.ng/wp-includes/wp-db.php on line 2169
+[08-Oct-2022 06:21:21 UTC] PHP Warning:  Error while sending QUERY packet. PID=9326 in /home/inncomen/public_html/thewillowridge.ng/wp-includes/wp-db.php on line 2169
+[08-Oct-2022 06:21:21 UTC] PHP Warning:  Error while sending QUERY packet. PID=9202 in /home/inncomen/public_html/thewillowridge.ng/wp-includes/wp-db.php on line 2169
+[08-Oct-2022 06:21:21 UTC] PHP Warning:  Error while sending QUERY packet. PID=9327 in /home/inncomen/public_html/thewillowridge.ng/wp-includes/wp-db.php on line 2169
+[08-Oct-2022 06:21:21 UTC] PHP Warning:  Error while sending QUERY packet. PID=9331 in /home/inncomen/public_html/thewillowridge.ng/wp-includes/wp-db.php on line 2169
+[08-Oct-2022 06:21:21 UTC] PHP Warning:  Error while sending QUERY packet. PID=9335 in /home/inncomen/public_html/thewillowridge.ng/wp-includes/wp-db.php on line 2169
+[08-Oct-2022 06:21:22 UTC] PHP Warning:  Error while sending QUERY packet. PID=9337 in /home/inncomen/public_html/thewillowridge.ng/wp-includes/wp-db.php on line 2169
+[08-Oct-2022 06:21:22 UTC] PHP Warning:  Error while sending QUERY packet. PID=9325 in /home/inncomen/public_html/thewillowridge.ng/wp-includes/wp-db.php on line 2169
+[08-Oct-2022 06:21:23 UTC] PHP Warning:  Error while sending QUERY packet. PID=9452 in /home/inncomen/public_html/thewillowridge.ng/wp-includes/wp-db.php on line 2169
+[08-Oct-2022 06:21:24 UTC] PHP Warning:  Error while sending QUERY packet. PID=9462 in /home/inncomen/public_html/thewillowridge.ng/wp-includes/wp-db.php on line 2169

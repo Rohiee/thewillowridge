@@ -1,0 +1,8 @@
+2022-09-21T09:43:10+00:00 CRITICAL Uncaught TypeError: Argument 2 passed to Elementor\TemplateLibrary\Source_Local::on_save_post() must be an instance of WP_Post, instance of stdClass given, called in /home/inncomen/public_html/thewillowridge.ng/wp-includes/class-wp-hook.php on line 309 and defined in /home/inncomen/public_html/thewillowridge.ng/wp-content/plugins/elementor/includes/template-library/sources/local.php:1080
+Stack trace:
+#0 /home/inncomen/public_html/thewillowridge.ng/wp-includes/class-wp-hook.php(309): Elementor\TemplateLibrary\Source_Local->on_save_post(7889, Object(stdClass))
+#1 /home/inncomen/public_html/thewillowridge.ng/wp-includes/class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#2 /home/inncomen/public_html/thewillowridge.ng/wp-includes/plugin.php(476): WP_Hook->do_action(Array)
+#3 /home/inncomen/public_html/thewillowridge.ng/wp-includes/post.php(4673): do_action('save_post', 7889, Object(stdClass), true)
+#4 /home/inncomen/public_html/thewillowridge.ng/wp-includes/post.php(4775): wp_insert_post(Array, false, tr in /home/inncomen/public_html/thewillowridge.ng/wp-content/plugins/elementor/includes/template-library/sources/local.php on line 1080
+
